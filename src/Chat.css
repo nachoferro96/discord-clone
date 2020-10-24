@@ -6,3 +6,48 @@
     height: 100vh;
 }
 
+.chat-inputs {
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    border-top: 1px solid gray;
+    background-color: #474b53;
+}
+
+.chat-inputs > form > input {
+    padding: 15px;
+    background: transparent;
+    border: none;
+    outline-width: 0;
+    color: white;
+    width: 100%;
+    font-size: large;
+    
+}
+
+.chat-inputs >form {
+    flex: 1;
+}
+
+.chat-input-button{
+    display: none;
+}
+
+.chat-inputicons > .MuiSvgIcon-root {
+    padding: 5px;  
+}
+
+.chat-messages{
+    flex: 1;
+}
+
+
+
+
+
+
+
